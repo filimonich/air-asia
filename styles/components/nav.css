@@ -1,0 +1,15 @@
+.menu {
+  display: inline-block;
+  position: relative;
+  top: -13px;
+}
+
+.menu_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu_item {
+  display: inline-block;
+  margin-right: 54px;
+}

@@ -1,0 +1,25 @@
+ * {
+  padding: 0;
+  margin: 0;
+ }
+
+ html, body {
+  height: 100%;
+ }
+
+ body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+ }
+
+ ul, li {
+  list-style-type: none;
+ }
+
+ img {
+  width: 100%;
+}
+
+ .wrapper {
+  background-color: #001821;
+  height: 100%;
+}
