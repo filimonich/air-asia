@@ -58,7 +58,7 @@ img {
 }
 
 .wrapper_main {
-  background: url('./image/main/hero-top.jpg') no-repeat top center, url('./image/main/hero-bottom.jpg') no-repeat bottom center;
+  background: url('../../image/main/hero-top.jpg') no-repeat top center, url('./image/main/hero-bottom.jpg') no-repeat bottom center;
 }
 
 .container {
