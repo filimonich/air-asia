@@ -1,0 +1,22 @@
+.footer__section {
+  height: 98px;
+  margin-top: 12px;
+}
+
+.footer__content {
+  border-top: 2px solid rgb(255 255 255 / 10%);
+}
+
+.footer {
+  color: white;
+  position: relative;
+  padding: 45px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}

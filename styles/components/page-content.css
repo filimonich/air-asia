@@ -1,0 +1,52 @@
+.page-content {
+  background: #FFFFFF;
+  color: #303030;
+  padding-top: 98px;
+  padding-bottom: 76px;
+}
+
+.services {
+  margin-bottom: 60px;
+}
+
+.service {
+  display: flex;
+  margin-bottom: 49px;
+}
+
+.service__img {
+  width: 40%;
+  margin-right: 5%;
+}
+
+.services__content {
+  flex: 1;
+}
+
+.service__title {
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 4px;
+  margin-bottom: 28.5px;
+  color: #000000;
+}
+
+.service__desc {
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.service__button {
+  display: flex;
+  justify-content: center;
+  transition: .3s;
+  padding: 18px 30px;
+  margin-top: auto;
+  width: 168px;
+  height: 55px;
+}
+
+.service__button:hover {
+  background: #FFFFFF;
+  color: #F5170E;
+}

@@ -4,3 +4,17 @@
 @import url('./components/logo.css');
 @import url('./components/nav.css');
 @import url('./components/address.css');
+@import url('./components/preview.css');
+@import url('./components/button.css');
+@import url('./components/hot-tours.css');
+@import url('./components/news.css');
+@import url('./components/paginator.css');
+@import url('./components/about.css');
+@import url('./components/footer.css');
+@import url('./components/socials.css');
+@import url('./components/top-line.css');
+@import url('./components/page-title.css');
+@import url('./components/breadcrumbs.css');
+@import url('./components/page-content.css');
+@import url('./components/inner-section.css');
+@import url('./components/inner-footer');

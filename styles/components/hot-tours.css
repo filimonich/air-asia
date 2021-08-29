@@ -1,0 +1,108 @@
+.title {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.section-title::after {
+  content: "";
+  background: url('/image/main/flame.png') center no-repeat;
+  padding: 0 10px;
+  background-size: 100%;
+  margin-left: 10px;
+}
+
+.tours-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.tour:last-child {
+  margin-right: 0;
+}
+
+.tours-list__item {
+  background-color: #fff;
+  width: calc(100% / 3 - 18px);
+  margin-right: 22px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tour__button {
+  display: flex;
+  justify-content: center;
+  transition: .3s;
+  padding: 18px 30px;
+  border: 1px solid #F5170E;
+  margin-top: auto;
+  width: 136px;
+}
+
+.tour__button:hover {
+  background: #FFFFFF;
+  color: #F5170E;
+}
+
+.tour__description {
+  padding-left: 22px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tour__title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 19px;
+}
+
+.tour__image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+}
+
+.tour__header-image {
+  height: 144px;
+  margin-bottom: 4px;
+}
+
+.tour__options {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour__option {
+  margin-right: auto;
+}
+
+.tour-item__logo {
+  top: 10px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.tour-item__desc {
+  color: #666;
+  position: relative;
+  top: -6px;
+}
+
+.tour__text {
+  font-size: 14px;
+  line-height: 21px;
+  color: #303030;
+}

@@ -1,15 +1,24 @@
 .menu {
-  display: inline-block;
-  position: relative;
-  top: -13px;
+  font-size: 14px;
+  margin-left: 80px;
+  margin-right: auto;
 }
 
-.menu_link {
-  color: #fff;
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 52px;
+}
+
+.menu__item:last-child {
+  margin-left: 0;
+}
+
+.menu__link {
+  font-size: 14px;
   text-decoration: none;
 }
 
-.menu_item {
-  display: inline-block;
-  margin-right: 54px;
+.menu__link:hover {
+  color: #DA0100;
 }
