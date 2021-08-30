@@ -1,0 +1,28 @@
+.separator {
+  background: #FFFFFF url('../../image/reviews/Rectangle.png') center 20% no-repeat;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.separator__content {
+  max-width: 50%;
+}
+
+.separator__title {
+  color: #FFFFFF;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.separator__title::after {
+  content: "";
+  background: url('../../image/reviews/couple.png') center no-repeat;
+  width: 487px;
+  padding: 170px 287px;
+  background-size: 90%;
+  margin-left: 100px;
+}
