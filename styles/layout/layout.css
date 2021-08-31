@@ -49,6 +49,11 @@ img {
   max-height: 100%;
 }
 
+button {
+  background: transparent;
+  border: none;
+}
+
 .wrapper {
   min-height: 100%;
   background: #001822;
@@ -68,30 +73,44 @@ img {
 
 /* sevices page */
 
-.form__row {
+.welcome {
   display: flex;
-  margin-bottom: 26px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url('../../image/welcome/bg.png') center bottom / cover no-repeat;
 }
 
-.from__input {
-  flex: 1;
-  margin-right: 30px;
-  border-radius: 4px;
-  border: none;
-  background: #FFFFFF;
-  padding: 22px 30px;
-  font-size: 18px;
-  color: #1A1B1E;
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: bounce 1.3s infinite;
 }
 
-.from__input::placeholder {
-  color: #666666;
+.central__logo {
+  margin-bottom: 65px;
 }
 
-.form__input:last-child {
-  margin-right: 0px;
-}
-
-.from__input--textarea {
-  height: 235px;
+@keyframes bounceIn{
+  0%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+  50%{
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(0.89);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
 }
