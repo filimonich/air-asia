@@ -16,6 +16,7 @@
 
 .paginator__item {
   text-align: center;
+  margin-right: 1px;
 }
 
 .paginator__link {

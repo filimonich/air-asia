@@ -1,9 +1,9 @@
-.footer__section {
+.footer-container__section {
   height: 98px;
   margin-top: 12px;
 }
 
-.footer__content {
+.footer-container__content {
   border-top: 2px solid rgb(255 255 255 / 10%);
 }
 

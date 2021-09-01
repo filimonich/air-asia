@@ -30,10 +30,14 @@
   margin-bottom: 11px;
 }
 
-.review__header:after {
+.review__social {
+  margin-left: 8px;
+}
+
+/* .review__header:after {
   content: url('../../image/reviews/vk-blue.png');
   height: 29px;
-}
+} */
 
 .avatar {
   width: 142px;
