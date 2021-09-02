@@ -58,11 +58,12 @@
 
 .controls__item {
   margin-bottom: 10px;
-}
-
-.controls__elem {
   cursor: pointer;
 }
+
+/* .controls__elem {
+  cursor: pointer;
+} */
 
 .controls__checkbox {
   position: absolute;
