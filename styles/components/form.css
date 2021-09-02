@@ -1,60 +1,79 @@
+.form {
+  background-color: #f4f5f5;
+  margin-bottom: 76px;
+}
+
 .form__row {
   display: flex;
   margin-bottom: 26px;
+  column-gap: 28px;
 }
 
 .form__input {
   flex: 1;
-  margin-right: 30px;
-  border-radius: 4px;
-  border: none;
+  border-radius: 5px;
+  border: 1px solid transparent;
   background: #FFFFFF;
-  padding: 22px 30px;
+  padding: 18px 30px;
   font-size: 18px;
   color: #1A1B1E;
+  line-height: 1.4;
+  outline: none;
 }
 
 .form__input::placeholder {
   color: #666666;
 }
 
-.form__input:last-child {
-  margin-right: 0px;
+.form__input:focus {
+  border-color:#F5170E;
 }
 
 .form__input--textarea {
-  height: 235px;
+  min-height: 235px;
+  resize: none;
 }
 
 .form__controls {
   display: flex;
 }
 
+.form__controls--type--controls {
+  column-gap: 75px;
+}
+
 .form__controls-title {
-  width: 40%;
+  flex-basis: 366px;
+  flex-shrink: 0;
+  font-size: 18px;
+  line-height: 1.4;
 }
 
 .controls {
-  flex: 1;
   display: flex;
   flex-wrap: wrap;
+  column-gap: 7px;
+  row-gap: 9px;
 }
 
 .controls__item {
   margin-bottom: 10px;
-  margin-right: 10px;
 }
 
 .controls__elem {
   cursor: pointer;
 }
 
-.controls__checkbox:checked ~ .controls__tag {
-  background: #B9EAE4;
+.controls__checkbox {
+  position: absolute;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-progress-appearance: unset;
 }
 
-.controls__checkbox {
-  display: none;
+.controls__checkbox:checked ~ .controls__tag {
+  background-color: #B9EAE4;
 }
 
 .button--color--grey {
