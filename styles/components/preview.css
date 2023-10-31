@@ -21,3 +21,9 @@
 .preview__button {
   padding: 20px 40px;
 }
+
+@media (max-width: 640px) {
+  .preview__title {
+    font-size: 65.5px;
+  }
+}

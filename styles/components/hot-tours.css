@@ -8,7 +8,7 @@
 
 .section-title::after {
   content: "";
-  background: url('../../image/main/flame.png') center no-repeat;
+  background: url("../../image/main/flame.png") center no-repeat;
   padding: 0 10px;
   background-size: 100%;
   margin-left: 10px;
@@ -40,16 +40,16 @@
 .tour__button {
   display: flex;
   justify-content: center;
-  transition: .3s;
+  transition: 0.3s;
   padding: 18px 30px;
-  border: 1px solid #F5170E;
+  border: 1px solid #f5170e;
   margin-top: auto;
   width: 136px;
 }
 
 .tour__button:hover {
-  background: #FFFFFF;
-  color: #F5170E;
+  background: #ffffff;
+  color: #f5170e;
 }
 
 .tour__description {
@@ -105,4 +105,10 @@
   font-size: 14px;
   line-height: 21px;
   color: #303030;
+}
+
+@media (max-width: 640px) {
+  .hot-tours {
+    display: none;
+  }
 }

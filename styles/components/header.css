@@ -14,3 +14,66 @@
 .header__col--alight--right {
   justify-content: flex-end;
 }
+
+.hamburger {
+  z-index: 15;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  display: inline-flex;
+  top: 2.8%;
+  right: 6%;
+  width: 3rem;
+  height: 2rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.hamburger::after {
+  z-index: 16;
+  content: '';
+  top: -0.625rem;
+  right: -0.063rem;
+  position: absolute;
+  width: 3.125rem;
+  height: 2.5rem;
+}
+
+.hamburger__plank {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0.25rem;
+  background: white;
+  border-radius: 0.125rem;
+  transition: all 0.4s;
+}
+
+.hamburger__plank:nth-child(2) {
+  top: 49%;
+  /* background: red; */
+  transform: translateY(-50%);
+}
+
+.hamburger__plank:nth-child(3) {
+  bottom: 0;
+  top: initial;
+  /* background: red; */
+}
+
+.hamburger--active .hamburger__plank {
+  background: violet;
+}
+
+.hamburger--active .hamburger__plank:nth-child(1) {
+  opacity: 0;
+}
+
+.hamburger--active .hamburger__plank:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.hamburger--active .hamburger__plank:nth-child(3) {
+  transform: rotate(-45deg) translateY(-0.35rem) translateX(0.25rem);
+}

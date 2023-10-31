@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600&display=swap");
 
 html,
 body {
@@ -63,7 +63,8 @@ button {
 }
 
 .wrapper_main {
-  background: url('../../image/main/hero-top.jpg') no-repeat top center, url('../../image/main/hero-bottom.jpg') no-repeat bottom center;
+  background: url("../../image/main/hero-top.jpg") no-repeat top center,
+    url("../../image/main/hero-bottom.jpg") no-repeat bottom center;
 }
 
 .container {
@@ -71,4 +72,26 @@ button {
   margin: 0 auto;
 }
 
-/* sevices page */
+@media (max-width: 640px) {
+  html,
+  body {
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+  .wrapper {
+    height: 100vh;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    min-width: auto;
+  }
+
+  .wrapper_main {
+    background: url("../../image/main/hero-top.jpg") no-repeat center left 30%;
+  }
+
+  .container  {
+    width: 90%;
+  }
+}

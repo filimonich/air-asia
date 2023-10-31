@@ -37,7 +37,7 @@
 }
 
 .contacts__text {
-  color: #9A9A9A;
+  color: #9a9a9a;
   font-size: 11px;
   width: max-content;
   margin-left: auto;
@@ -49,7 +49,7 @@
   width: 160px;
   height: 60px;
   margin-left: 26px;
-  background: #EDEDED;
+  background: #ededed;
   border-radius: 5px;
   top: 100%;
   right: 0;
@@ -62,12 +62,12 @@
   width: 0;
   height: 0;
   position: absolute;
-  top: 100%; 
+  top: 100%;
   top: calc(5% - 10px);
   right: calc(20% - 10px);
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
-  border-bottom: 20px solid #EDEDED;
+  border-bottom: 20px solid #ededed;
 }
 
 .contacts__list {
@@ -75,7 +75,7 @@
 }
 
 .contacts__item {
-  color: #1E1F20;
+  color: #1e1f20;
   font-size: 13px;
   line-height: 21px;
   /* font-weight: 600; */
@@ -83,4 +83,10 @@
 
 .contacts__item--fw {
   font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .contacts {
+    display: none;
+  }
 }
