@@ -23,6 +23,10 @@
 }
 
 @media (max-width: 640px) {
+  .preview {
+    padding: 50% 0 0;
+  }
+
   .preview__title {
     font-size: 65.5px;
   }
