@@ -88,7 +88,9 @@ button {
   }
 
   .wrapper_main {
-    background: url("../../image/main/hero-top.jpg") no-repeat center left 30%;
+    /* background: url("../../image/main/hero-top.jpg") no-repeat center left 30%; */
+    background: url("../../image/main/hero-top.jpg")no-repeat 33%;
+    background-size: cover;
   }
 
   .container  {
